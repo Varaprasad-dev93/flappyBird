@@ -1,0 +1,40 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    overflow-y: hidden;
+    font-size: larger;
+    background-color: skyblue;
+}
+.board{
+    background-image: url('bground.jpg');
+    display: flex;
+    justify-self: center;
+}
+.score{
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+    left: 25%;
+}
+.start{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    align-self: center;
+    left:45%;
+    top:45%;
+    padding:10px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(0,0, 0, 0.2);
+    border-radius: 5px;
+}
+.start span{
+    font-size: 1rem;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+@media (max-width:700px) {
+    .score{
+        left:10%;
+    }
+}
