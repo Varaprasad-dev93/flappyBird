@@ -26,7 +26,7 @@ let birdX=boardWidth/6;
 let birdY=boardHeight/2;
 let VelocityX=-2;//for pipes to move on x axis
 let VelocityY=0;//for bird to speed the bird movement
-let gravity=0.2;//To make the bird to fall
+let gravity=0.4;//To make the bird to fall
 let pipes=[];//It contains of arrays of pipes
 let gameOver=false;
 let topPipeImg=new Image();
@@ -66,7 +66,7 @@ function move()
     setInterval(placePipe,1500);
 }
 function fly(){
-    VelocityY=-4;
+    VelocityY=-6;
     audio.src='flapSound.mp3';
     audio.volume='0.5';
     audio.play();
