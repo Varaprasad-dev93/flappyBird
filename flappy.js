@@ -66,7 +66,7 @@ function move()
     setInterval(placePipe,1500);
 }
 function fly(){
-    VelocityY=-6;
+    VelocityY=-4;
     audio.src='flapSound.mp3';
     audio.volume='0.5';
     audio.play();
